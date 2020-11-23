@@ -1,0 +1,90 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("ramon-salinero.jpg");
+    background-size: cover;
+    background-position: center;
+
+    min-height: 100vh;
+    width: 70%;
+    max-width: 900px; 
+    margin: 0 auto;
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+       /* background-repeat: no-repeat; */
+}
+
+
+
+
+
+h1 {
+    font-family: 'Finger Paint', cursive;
+    font-size: 2rem;
+    color: #e6ccff;
+}
+
+h2 {
+    font-family: 'Mirza', cursive;
+    font-size: 1.5rem;  
+}
+
+input {
+    padding: 1.5em;
+    width: 50%;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 0.75em;
+    border: none;
+    background-color: #e6ccff;
+    
+}
+
+button:hover,
+button:focus {
+    background-color: #380071;
+    color: white;
+}
+
+#display-message {
+    display: none;
+}
+
+#ball-message {
+    display: none;
+}
+
+#reset {
+    display: none;
+}
+
+
+#submit {
+    margin-top: 30px;
+}
+
+footer {
+    font-family: 'Mirza', cursive;
+    font-size: 0.75rem;
+    position: absolute; 
+    bottom: 0;
+}  
+
+@media only screen and (max-width: 500px) {
+    footer {
+       display: none;
+    }
+  }
+
