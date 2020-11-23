@@ -6,14 +6,11 @@ const ballMessage = document.getElementById("ball-message")
 const resetButton = document.getElementById("reset")
 
 
-
 button.addEventListener("click", showName)
 resetButton.addEventListener("click", resetGame)
 message.style.color = "#380071"
 
 // newMessage = displayMessage.value
-
-
 
 
 function showName() {
@@ -24,9 +21,9 @@ function showName() {
     displayMessage.style.color = "#e6ccff"
     showResults()
     resetButton.style.display = "block"
-
 }
 
+//----------- GENERATES RANDOM RESPONSE
 function showResults() {
     ballMessage.style.display = "block"
 
@@ -63,7 +60,6 @@ function showResults() {
     }
     playBall()
     ballMessage.innerText = (`The Magic Ball says: \n ${playBall()}`)
-
 }
 
 function resetGame() {
@@ -75,25 +71,6 @@ function resetGame() {
 
 }
 resetGame()
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function display() {
-//     getMessage = getMessage()
-//     window.alert(getMessage)
-//     document.getElementById("form").submit();
-
-// }
 
 
 
